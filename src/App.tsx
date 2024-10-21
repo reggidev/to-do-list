@@ -1,11 +1,13 @@
 import { Header } from "./components/header";
-import { TaskInput } from "./components/TaskInput";
+import { TaskList } from "./components/TaskList";
 
 export function App() {
   return (
     <>
       <Header />
-      <TaskInput />
+      <main>
+        <TaskList />
+      </main>
     </>
   )
 }
