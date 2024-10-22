@@ -171,10 +171,10 @@
 .todoItem > input[type="checkbox"]:checked::after {
   content: '';
   position: absolute;
-  top: 0.5px;
-  left: 4.5px;
-  width: 6px;
-  height: 10px;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 8px;
   border: solid white;
   border-width: 0 1.5px 1.5px 0;
   transform: rotate(45deg);
@@ -188,8 +188,8 @@
 }
 
 .todoButton {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   background: transparent;
   border: 0;
   margin: 0 auto;
